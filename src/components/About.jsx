@@ -31,20 +31,17 @@ const About = () => {
   return (
    <>
    <motion.div variants={textVariant()}>
-    <p className={styles.sectionSubText}>intro</p>
-    <h2 className={styles.sectionHeadText}>Overview.</h2>
+    <p className={styles.sectionSubText}>Giriş</p>
+    <h2 className={styles.sectionHeadText}>Hakkımdakiler ve ilgi alanlarım </h2>
    </motion.div>
 
    <motion.p variants={fadeIn("", "", 0.1, 1)}
    className="mt-4 text-secondary text--[17px] max-w-3xl leading-[30px]"
    >
-    Hello im arch im a full stack developer with a passion for creating
-    beautiful and functional websites and applications. I have a strong
-    background in computer science and software engineering. I have a
-    passion for learning new technologies and applying them to real world
-    applications. I have experience working with a variety of different
-    technologies and frameworks. I am currently looking for a full time
-    position as a software engineer.
+       Hat Sanatı, Ney ile ilgileniyorum. Bitkileri araştırmayı seviyorum. Kütüphane düzenlemesi yapmak stresimi azaltıyor
+       . Gökyüzünü seyretmek yağmurda ıslanmak en büyük keyif kaynağım. Limonlu çaydan vazgeçmem. Eğitimlere katılmayı , alanında uzman hocaları ziyaret edip tanışmayı severim.
+       Şu anda aktif olarak Edebiyat ve diksiyon eğitimi veriyorum.
+
    </motion.p>
    <div className="mt-20 flex flex-wrap gap-10">
     {services.map((service, index) => (

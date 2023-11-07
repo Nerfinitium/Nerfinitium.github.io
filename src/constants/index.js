@@ -28,152 +28,115 @@ import {
 export const navLinks = [
     {
         id: "about",
-        title: "About",
+        title: "Hakkımda",
     },
     {
         id: "work",
-        title: "Work",
+        title: "Eserlerim",
+    },
+    {
+        id: "experiene",
+        title: "Deneyimlerim",
     },
     {
         id: "contact",
-        title: "Contact",
+        title: "İletişim",
     },
+    {
+        id: "blog",
+        title: "Blog",
+    }
 ];
 
 const services = [
     {
-        title: "Web Developer",
+        title: "Edebiyat ve türk dil bilgisi",
         icon: web,
     },
     {
-        title: "React Native Developer",
+        title: "Diksiyon ve Hitabet",
         icon: mobile,
     },
     {
-        title: "Backend Developer",
+        title: "Şair",
         icon: backend,
     },
     {
-        title: "Content Creator",
+        title: "Osmanlıca Eser Çevirisi",
         icon: creator,
     },
-];
-
-const technologies = [
     {
-        name: "HTML 5",
-        icon: html,
+        title: "Kompozisyon ve Makale Yazarlığı",
+        icon: creator,
     },
     {
-        name: "CSS 3",
-        icon: css,
+        title: "Tiyatro ve Sinema",
+        icon: web,
     },
     {
-        name: "JavaScript",
-        icon: javascript,
+        title: "Eski Türk Edebiyatı",
+        icon: mobile,
     },
     {
-        name: "TypeScript",
-        icon: typescript,
-    },
-    {
-        name: "React JS",
-        icon: reactjs,
-    },
-    
-    {
-        name: "Node JS",
-        icon: nodejs,
-    },
-   
-    {
-        name: "Three JS",
-        icon: threejs,
-    },
-    {
-        name: "git",
-        icon: git,
-    },
-    
-    {
-        name: "docker",
-        icon: docker,
-    },
-    {
-        name: "C",
-        icon: docker,
-    },
-    {
-        name: "Cpp",
-        icon: docker,
-    },
-    {
-        name: "Csharp",
-        icon: docker,
-    },
-    {
-        name: "java",
-        icon: docker,
-    },
-    {
-        name: "kotlin",
-        icon: docker,
+        title: "Hat ve ney sanatı",
+        icon: backend,
     },
 
-    
 ];
+
+
 
 const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#383E56",
-        date: "March 2020 - April 2021",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "React Native Developer",
-        company_name: "Tesla",
+        title: "1.Şiir",
+        ad: "1",
         icon: tesla,
-        iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
         iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
+        date: "aralık 23 2008",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "*",
+            "*",
+            "*",
+            "*",
         ],
     },
     {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
+        title: "2.Şiir",
+        ad: "2",
+        icon: tesla,
+        iconBg: "#383E56",
+        date: "aralık 23 2008",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "*",
+            "*",
+            "*",
+            "*",
+        ],
+    },
+    {
+        title: "3.Şiir",
+        ad: "3",
+        icon: tesla,
+        iconBg: "#383E56",
+        date: "aralık 23 2008",
+        points: [
+            "*",
+            "*",
+            "*",
+            "*",
+        ],
+    },
+    {
+        title: "4.şiir",
+        ad: "4",
+        icon: tesla,
+        iconBg: "#383E56",
+        date: "aralık 23 2008",
+        points: [
+            "*",
+            "*",
+            "*",
+            "*",
         ],
     },
 ];
@@ -205,70 +168,198 @@ const testimonials = [
     },
 ];
 
+const technologies = [
+    {
+        name: "HTML 5",
+        icon: html,
+    },
+    {
+        name: "CSS 3",
+        icon: css,
+    },
+    {
+        name: "JavaScript",
+        icon: javascript,
+    },
+    {
+        name: "TypeScript",
+        icon: typescript,
+    },
+    {
+        name: "React JS",
+        icon: reactjs,
+    },
+
+    {
+        name: "Node JS",
+        icon: nodejs,
+    },
+
+    {
+        name: "Three JS",
+        icon: threejs,
+    },
+    {
+        name: "git",
+        icon: git,
+    },
+
+    {
+        name: "docker",
+        icon: docker,
+    },
+    {
+        name: "C",
+        icon: docker,
+    },
+    {
+        name: "Cpp",
+        icon: docker,
+    },
+    {
+        name: "Csharp",
+        icon: docker,
+    },
+    {
+        name: "java",
+        icon: docker,
+    },
+    {
+        name: "kotlin",
+        icon: docker,
+    },
+
+
+];
+
 const projects = [
     {
-        name: "Car Rent",
+        name: "*",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "*",
         tags: [
             {
-                name: "react",
+                name: "Cumhuriyet dönemi edebiyatı",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "Türk dili ve edebiyatı",
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "şiir",
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
+        image: tesla,
         source_code_link: "https://github.com/",
     },
     {
-        name: "Job IT",
+        name: "*",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "*",
         tags: [
             {
-                name: "react",
+                name: "Cumhuriyet dönemi edebiyatı",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "Türk dili ve edebiyatı",
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "şiir",
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
+        image: tesla,
         source_code_link: "https://github.com/",
     },
     {
-        name: "Trip Guide",
+        name: "*",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "*",
         tags: [
             {
-                name: "nextjs",
+                name: "Cumhuriyet dönemi edebiyatı",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "Türk dili ve edebiyatı",
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "şiir",
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
+        image: tesla,
         source_code_link: "https://github.com/",
     },
+    {
+        name: "*",
+        description:
+            "*",
+        tags: [
+            {
+                name: "Cumhuriyet dönemi edebiyatı",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Türk dili ve edebiyatı",
+                color: "green-text-gradient",
+            },
+            {
+                name: "şiir",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: tesla,
+        source_code_link: "https://github.com/",
+    },
+    {
+        name: "*",
+        description:
+            "*",
+        tags: [
+            {
+                name: "Cumhuriyet dönemi edebiyatı",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Türk dili ve edebiyatı",
+                color: "green-text-gradient",
+            },
+            {
+                name: "şiir",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: tesla,
+        source_code_link: "https://github.com/",
+    },
+    {
+        name: "*",
+        description:
+            "*",
+        tags: [
+            {
+                name: "Cumhuriyet dönemi edebiyatı",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Türk dili ve edebiyatı",
+                color: "green-text-gradient",
+            },
+            {
+                name: "şiir",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: tesla,
+        source_code_link: "https://github.com/",
+    },
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };
